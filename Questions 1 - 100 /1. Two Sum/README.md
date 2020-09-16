@@ -39,3 +39,10 @@ etc...
 
 ## Gotchas
 Gotcha is to find the `complement` and use a hashmap to see if the `complement` has been seen before.  
+
+
+## Code Example and Runtime
+Documented code example is in the directory [TwoSum.java](TwoSum.java). 
+
+**Runtime:** `o(n)` Time, `o(n)` Space
+
