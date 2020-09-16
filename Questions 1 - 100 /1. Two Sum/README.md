@@ -17,7 +17,7 @@ return [1,3] (because nums[1] + nums[3] = 11)
 
 ## Brute Force Solution
 Check every pair of indices in `nums` and see if they add up to `target`. 
-This would take `0(n2) time`, and `O(1) space`
+This would take `0(n^2) time`, and `O(1) space`
 
 ## Optimal Solution
 To save time we can use a hashmap to save numbers seen so far and do it in one pass. The hashmap will 
