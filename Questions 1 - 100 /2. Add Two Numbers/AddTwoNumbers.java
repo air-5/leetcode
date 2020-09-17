@@ -1,4 +1,3 @@
-package leetcode.linkedlists;
 
 import leetcode.util.ListNode;
 
