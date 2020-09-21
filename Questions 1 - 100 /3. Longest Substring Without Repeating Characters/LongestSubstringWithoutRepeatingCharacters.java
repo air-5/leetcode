@@ -1,4 +1,3 @@
-package leetcode.strings;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -32,38 +31,5 @@ public class LongestSubstringWithoutRepeatingCharacters {
             }
         }
         return max;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-    public int lengthOfLongestSubstring(String s) {
-        Set<Character> set = new HashSet<>();
-        int ans = 0;
-        int i = 0;
-        int j = 0;
-        while (i < s.length() && j < s.length()) {
-            char jChar = s.charAt(j);
-            if (!set.contains(jChar)) {
-                set.add(jChar);
-                j++;
-                ans = Math.max(ans, j - i);
-            }
-            else {
-                char iChar = s.charAt(i);
-                set.remove(iChar);
-                i++;
-            }
-        }
-        return ans;
     }
 }
