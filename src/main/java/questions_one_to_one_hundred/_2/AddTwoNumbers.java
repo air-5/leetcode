@@ -1,5 +1,7 @@
+package questions_one_to_one_hundred._2;
 
-import leetcode.util.ListNode;
+
+import questions_one_to_one_hundred.utils.ListNode;
 
 public class AddTwoNumbers {
     public static void main(String[] args) {

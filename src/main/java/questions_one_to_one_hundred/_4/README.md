@@ -1,16 +1,9 @@
-# Question 3. Longest Substring Without Repeating Characters
+# Question 4.Median of Two Sorted Arrays
 
-First read official question description on [leetcode.com: Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
+First read official question description on [leetcode.com: Longest Substring Without Repeating Characters](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 
 ## Quick description
-You are given a string `s` and you need to return the length (int) of the longest substring with no repeating characters.
-```
-Example:
-String s = "abcabcbb"
-return 3
-
-why? "abc" is the longest substring that doesn't haven any repeating characters. Could also be "bca", or "cab" 
-```
+TODO
 
 ## Brute Force Solution
 Find every single substring in `s` and check if they have no duplicates, then return the longest one. Very slow, 

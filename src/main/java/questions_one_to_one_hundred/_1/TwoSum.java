@@ -1,3 +1,5 @@
+package questions_one_to_one_hundred._1;
+
 import java.util.HashMap;
 import java.util.Map;
 
